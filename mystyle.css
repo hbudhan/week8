@@ -1,0 +1,43 @@
+body {
+background-color: #0d0d0d;
+color: #00e673;
+padding: 80px 450px;
+font-size: 1.5em;
+font-weight: bold;
+font-style: italic;
+}
+
+input[type=text], input[type=password], input[type=fname], input[type=email], input[type=phone], input[type=bday], input[type=gen]{
+width: 100%
+padding: 14px, 20px;
+margin: 6px 0;
+display: block;
+border: 1.75px solid #00e673;
+box-sizing: border-box;
+background: #fff;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fbfbfb));
+
+-webkit-appearance: none;
+-webkit-box-shadow: 1px 1px 1px #fff;
+-webkit-border-radius: 0.25em;
+vertical-align: text-top;
+display: inline-block;
+}
+
+.container{
+background-color: #262626;
+width: 500px;
+border: 20px solid #404040;
+padding: 10px;
+margin: 25px;
+}
+
+#content {
+text-align: center;
+}
+
+input[type=submit]{
+background-color: #00e673;
+border: 2px solid #404040;
+box-sizing: border-box;
+}
